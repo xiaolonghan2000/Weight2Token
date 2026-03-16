@@ -1,0 +1,5 @@
+dataset,num_rows,path
+arc-challenge,1000,./retrieval/plans/arc_challenge_gallery_plan.csv
+boolq,1000,./retrieval/plans/boolq_gallery_plan.csv
+gsm8k,1000,./retrieval/plans/gsm8k_gallery_plan.csv
+mbpp,1000,./retrieval/plans/mbpp_gallery_plan.csv

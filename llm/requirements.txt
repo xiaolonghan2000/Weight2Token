@@ -1,0 +1,11 @@
+torch
+transformers
+datasets
+peft
+safetensors
+huggingface_hub
+numpy
+pandas
+tqdm
+accelerate
+sentencepiece

@@ -1,0 +1,11 @@
+torch
+torchvision
+numpy
+pandas
+tqdm
+safetensors
+accelerate
+diffusers
+transformers
+datasets
+peft

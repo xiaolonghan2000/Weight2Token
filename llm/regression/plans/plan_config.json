@@ -1,0 +1,25 @@
+{
+  "out_name": "plan.csv",
+  "num_trials": 10000,
+  "base_model": "meta-llama/Llama-3.2-3B",
+  "dataset": "arc-easy",
+  "seed": 42,
+  "lr_min": 5e-06,
+  "lr_max": 0.0005,
+  "epochs_min": 1,
+  "epochs_max": 4,
+  "r_choices": [
+    8
+  ],
+  "alpha_choices": [
+    16
+  ],
+  "dropout_min": 0.0,
+  "dropout_max": 0.1,
+  "weight_decay_min": 0.0,
+  "weight_decay_max": 0.1,
+  "max_len": 512,
+  "batch_size": 8,
+  "grad_accum": 8,
+  "target_modules": "q_proj,v_proj"
+}
