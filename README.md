@@ -1,7 +1,7 @@
 # W2T
 
 <p align="center">
-  <b>Weight-to-Token modeling for learning directly from LoRA checkpoints.</b>
+  <b>W2T: LoRA Weights Already Know What They Can Do</b>
 </p>
 
 <p align="center">
