@@ -9,7 +9,9 @@
 </p>
 
 <p align="center">
-  <img alt="Arxiv" src="https://img.shields.io/badge/arXiv-2603.15990-b31b1b", href="https://arxiv.org/abs/2603.15990">
+  <a href="https://arxiv.org/abs/2603.15990">
+    <img alt="Arxiv" src="https://img.shields.io/badge/arXiv-2603.15990-b31b1b">
+  </a>
   <img alt="Task scope" src="https://img.shields.io/badge/Tasks-Classification%20%7C%20Prediction%20%7C%20Retrieval-C96B6B">
   <img alt="Modalities" src="https://img.shields.io/badge/Modalities-LLM%20%7C%20Diffusion-6B8EC9">
   <img alt="Core object" src="https://img.shields.io/badge/Object-LoRA%20Checkpoints-6BAA8E">
