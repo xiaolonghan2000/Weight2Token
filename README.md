@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <img alt="Arxiv" src="https://img.shields.io/badge/arXiv-2603.15990-b31b1b", href="https://arxiv.org/abs/2603.15990">
   <img alt="Task scope" src="https://img.shields.io/badge/Tasks-Classification%20%7C%20Prediction%20%7C%20Retrieval-C96B6B">
   <img alt="Modalities" src="https://img.shields.io/badge/Modalities-LLM%20%7C%20Diffusion-6B8EC9">
   <img alt="Core object" src="https://img.shields.io/badge/Object-LoRA%20Checkpoints-6BAA8E">
@@ -157,8 +158,19 @@ python classification/train_w2t_cub.py --lora_root ./data_generation/outputs/cub
 
 </details>
 
-## [ Notes ]
 
-- Datasets and trained checkpoints are not included in this repository.
-- Prepare datasets locally before running the workflows.
-- See `llm/README.md` and `diffusion/README.md` for the task-specific entry points.
+
+> [!NOTE]
+> Datasets and trained checkpoints are not included in this repository.
+> 
+> See `llm/README.md` and `diffusion/README.md` for the task-specific entry points.
+> 
+> If you find this repository useful for your research, please consider citing our survey and starring this repository.
+
+```bibtex
+@article{han2026w2t,
+  title   = {W2T: LoRA Weights Already Know What They Can Do},
+  author  = {Han, Xiaolong and Neri, Ferrante and Jiang, Zijian and Wu, Fang and Ye, Yanfang and Yin, Lu and Wang, Zehong},
+  journal = {arXiv preprint arXiv:2603.15990},
+  year    = {2026}
+}
